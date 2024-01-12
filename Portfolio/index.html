@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                Portfolio
+            </span>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="imgdiv">
+                <img src="./img/portfolioimg.png" alt="profilepic">
+            </div>
+            <div class="content">
+                <h1><span class="hi">Hi I'm Harsh Gadade</span> <br> <span class="frontend">Frontend Developer.</span></h1>
+                <a href="resume harsh.docx" download="resume harsh.docx"><input type="button" value="Download CV"></a> 
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="aboutcontent">
+                <div class="ssccard">
+                    <h1>SSC</h1>
+                    <p>Institute/School : ST. Johns High School Borivali, Mumbai.</p>
+                    <p>Year : 2017 passout.</p>
+                    <p>Percentage/ CGPA : 73.60%.</p>
+                </div>
+               <div class="hsccard">
+                <h1>HSC</h1>
+                <p>Institute/School : Patkar college of science and commerce Goregaon, Mumbai</p>
+                <p>Year : 2019 passout.</p>
+                <p>Percentage/ CGPA : 54.92%.</p>
+            </div>
+            <div class="degreecard">
+                <h1>Degree</h1>
+                <p>Siddhant College Of Engineering, Sudumbre, Pune (SPPU)</p>
+                <p>Year : 2023 passout.</p>
+                <p>Percentage/ CGPA : 8.19 CGPA.</p>
+            </div>
+        </div>
+        <div class="aboutimg">
+            <img src="./img/education.png" alt="educationimg">
+        </div>
+        </section>
+
+        <section class="skills" id="skills">
+           <h3 style="width:100%;">Skills</h3>
+           
+            <div class="skillsdiv">
+                <img src="./img/htmlimg1.png" alt="html">
+                <p>I am highly skilled in HTML, with a deep understanding of its structure, elements, and best practices for web development.</p>
+            </div>
+
+            <div class="skillsdiv">
+                <img src="./img/css.png" alt="css">
+                <p>Skilled in creating responsive and visually appealing websites using CSS3 for enhanced user experiences also Proficiency in flexbox . </p>
+            </div>
+
+            <div class="skillsdiv">
+                <img src="./img/javascript.png" alt="javascript">
+                <p>Skilled in building dynamic and interactive user interfaces using JavaScript, enhancing user experiences on web applications.</p>
+            </div>
+
+            <div class="skillsdiv">
+                <img src="./img/jqueryimg.jpg" alt="jquery">
+                <p>I am proficient in jQuery, a powerful JavaScript library that simplifies web development , With expertise in DOM manipulation. </p>
+            </div>
+
+            <div class="skillsdiv">
+                <img src="./img/bootstrap.webp" alt="bootstrap">
+                <p>With the help of bootstrap framework I can make mobile first websites faster and responsive.</p>
+            </div>
+
+            <div class="skillsdiv">
+                <img src="./img/tsimg.png" alt="typescript">
+                <p>TypeScript supports the latest ECMAScript features along with additional features of its own.</p>
+            </div>
+        </section>  
+
+        <section class="projects" id="projects">
+            <div class="title">Projects</div>
+            <div class="project-container">
+                <div class="contentdiv">
+                <img src="./img/receipeimg.jpeg" alt="receipeimg">
+                <h1>Receipe Website</h1>
+                <p>Here with the help of Html semantics i have created a receipe website look also with the help of Css i have enhanced the look of this receipe web page and made it responsive for mobile device and tab and for differet media screens.</p>
+                </div>
+    
+                <div class="contentdiv">
+                <img src="./img/fronttempimg.jpeg" alt="fronttempimg">
+                <h1>Web Devlopment template</h1>
+                <p>A template which gives the information about the skills required to become a Frontend Devloper. I have added information about the skills such as HTML, CSS, javascript, bootstrap and React.</p>
+                </div>
+    
+                <div class="contentdiv">
+                <img src="./img/tributepage.jpeg" alt="tributepage">
+                <h1>Tribute Page</h1>
+                <p>Tribute web page of Dr. Apj abdul Kalam with their information and some biographies are added in this web page. This is a single page project with the help of basic fundamentals of Html and css i have created this projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+                <form> 
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email here" required>
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" placeholder="Any message to leave..." required></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+                
+                <div class="footer">
+                    <p>&copy; 2023 Harsh Gadade, All Rights Reserved.</p>
+                </div>
+            </section>
+    </main>
+</body>
+</html>  
